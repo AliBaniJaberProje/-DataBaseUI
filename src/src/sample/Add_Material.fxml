@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="736.0" prefWidth="841.0" style="-fx-background-color: #aac5e7; -fx-border-color: rgb(0,0,0);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddMaterial">
+   <children>
+      <AnchorPane layoutX="153.0" layoutY="22.0" prefHeight="596.0" prefWidth="503.0" style="-fx-background-color: rgba(0,0,255,.5); -fx-border-color: rgba(0,0,255,.5);">
+         <children>
+            <Label layoutX="132.0" layoutY="21.0" prefHeight="46.0" prefWidth="208.0" text="طلب شراء مستلزمات ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Separator layoutX="136.0" layoutY="80.0" prefWidth="200.0" />
+            <Label alignment="CENTER" layoutX="289.0" layoutY="108.0" prefHeight="46.0" prefWidth="208.0" text="اسم المادة">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="291.0" layoutY="173.0" prefHeight="46.0" prefWidth="208.0" text="الكمية">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="291.0" layoutY="243.0" prefHeight="46.0" prefWidth="208.0" text="اسم المورد">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="290.0" layoutY="312.0" prefHeight="46.0" prefWidth="208.0" text="تاريخ الشراء">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="290.0" layoutY="382.0" prefHeight="46.0" prefWidth="208.0" text="حساب الثمن الكلي">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="30.0" layoutY="108.0" prefHeight="46.0" prefWidth="238.0" />
+            <TextField alignment="CENTER_RIGHT" layoutX="30.0" layoutY="173.0" prefHeight="46.0" prefWidth="238.0" />
+            <TextField alignment="CENTER_RIGHT" layoutX="30.0" layoutY="243.0" prefHeight="46.0" prefWidth="238.0" />
+            <TextField alignment="CENTER_RIGHT" layoutX="30.0" layoutY="382.0" prefHeight="46.0" prefWidth="238.0" />
+            <DatePicker layoutX="30.0" layoutY="308.0" prefHeight="46.0" prefWidth="245.0" />
+            <Label alignment="CENTER" layoutX="291.0" layoutY="455.0" prefHeight="46.0" prefWidth="208.0" text="طريقة الدفع">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="34.0" layoutY="453.0" prefHeight="46.0" prefWidth="238.0" />
+            <Label alignment="CENTER" layoutX="289.0" layoutY="524.0" prefHeight="46.0" prefWidth="208.0" text="اسم المستودع">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="34.0" layoutY="513.0" prefHeight="46.0" prefWidth="238.0" promptText="هان يلخو من الداتا بيس بنجيب اسماء المستودعات" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="save_button" layoutX="433.0" layoutY="659.0" mnemonicParsing="false" onAction="#buttonActions" prefHeight="63.0" prefWidth="223.0" style="-fx-background-color: rgba(0,0,255,.5); -fx-background-radius: 200; -fx-text-fill: white;" text="شراء واضافة للمستودع">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cansel" layoutX="153.0" layoutY="659.0" mnemonicParsing="false" onAction="#buttonActions" prefHeight="63.0" prefWidth="223.0" style="-fx-background-color: rgba(0,0,255,.5); -fx-background-radius: 200; -fx-text-fill: white;" text="الغاء الشراء">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

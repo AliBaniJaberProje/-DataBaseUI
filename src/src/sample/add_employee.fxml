@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="add_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="725.0" style="-fx-background-color: #5588FF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddEmployee">
+   <children>
+      <Button fx:id="add" layoutX="374.0" layoutY="309.0" mnemonicParsing="false" onAction="#buttonActions" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #3314FF; -fx-background-radius: 20;" text="اضافة" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel" layoutX="207.0" layoutY="309.0" mnemonicParsing="false" onAction="#buttonActions" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #3314FF; -fx-background-radius: 20;" text="الغاء" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="22.0" />
+         </font>
+      </Button>
+      <Separator layoutX="4.0" layoutY="290.0" prefHeight="1.0" prefWidth="725.0" />
+      <TextField fx:id="name" layoutX="549.0" layoutY="52.0" prefHeight="34.0" prefWidth="149.0" promptText="الاسم" style="-fx-background-radius: 200;" />
+      <TextField fx:id="sex" layoutX="363.0" layoutY="52.0" prefHeight="34.0" prefWidth="149.0" promptText="الجنس" style="-fx-background-radius: 200;" />
+      <TextField fx:id="ID" layoutX="173.0" layoutY="52.0" prefHeight="34.0" prefWidth="149.0" promptText="ID" style="-fx-background-radius: 200;" />
+      <ComboBox fx:id="job_type" layoutX="10.0" layoutY="52.0" prefHeight="34.0" prefWidth="150.0" promptText="نوع الوظيفة" style="-fx-background-radius: 200;" />
+      <TextField fx:id="email" layoutX="549.0" layoutY="131.0" prefHeight="34.0" prefWidth="149.0" promptText="الايميل" style="-fx-background-radius: 200;" />
+      <DatePicker fx:id="SD" layoutX="366.0" layoutY="131.0" prefHeight="34.0" prefWidth="149.0" promptText="تاريخ التوظيف" style="-fx-background-radius: 200;" />
+      <TextField fx:id="salary" layoutX="173.0" layoutY="131.0" prefHeight="34.0" prefWidth="149.0" promptText="الراتب" style="-fx-background-radius: 200;" />
+      <TextField fx:id="addresess" layoutX="366.0" layoutY="218.0" prefHeight="34.0" prefWidth="149.0" promptText="العنوان" style="-fx-background-radius: 200;" />
+      <TextField fx:id="NOC" layoutX="11.0" layoutY="131.0" prefHeight="34.0" prefWidth="149.0" promptText="عدد الاطفال" style="-fx-background-radius: 200;" />
+      <Separator layoutX="4.0" layoutY="40.0" prefHeight="3.0" prefWidth="716.0" />
+      <Label alignment="CENTER" layoutX="222.0" prefHeight="35.0" prefWidth="319.0" text="اضافة موظف جديد" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="31.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="AL_AG" layoutX="172.0" layoutY="217.0" prefHeight="34.0" prefWidth="150.0" promptText="الحالة الاجتماعية" style="-fx-background-radius: 200;" />
+   </children>
+</AnchorPane>

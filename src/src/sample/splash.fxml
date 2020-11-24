@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="855.0" prefWidth="1600.0" style="-fx-background-color: #5588ff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Splash">
+   <children>
+      <ImageView fitHeight="242.0" fitWidth="452.0" layoutX="574.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Twins-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fontSmoothingType="LCD" layoutX="593.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    Welcome" wrappingWidth="425.13671875">
+         <font>
+            <Font name="Wingdings 3" size="65.0" />
+         </font>
+      </Text>
+      <Text layoutX="732.0" layoutY="521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Loading...">
+         <font>
+            <Font name="Wingdings 3" size="35.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

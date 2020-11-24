@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: DARKMAGENTA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OrderDescription">
+   <children>
+      <TextArea layoutX="31.0" layoutY="70.0" prefHeight="308.0" prefWidth="538.0" style="-fx-background-color: rgba(0,0,255,.7);">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Label alignment="CENTER" layoutX="179.0" layoutY="21.0" prefHeight="35.0" prefWidth="209.0" text="اضافة وصف الطلب" textFill="#e8e8e8">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

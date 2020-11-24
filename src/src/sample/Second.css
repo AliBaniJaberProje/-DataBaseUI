@@ -1,0 +1,21 @@
+#vbox{
+    -fx-background-color: rgb(104, 255, 118);
+
+}
+
+
+#main_button{
+
+
+}
+#email{
+    -fx-background-color: rgb(255, 0, 11);
+}
+
+#orders_pane{
+    -fx-background-color: #aac5e7;
+}
+
+#addCarButton{
+    -fx-background-color: rgba(51, 102, 255, 0.8);
+}

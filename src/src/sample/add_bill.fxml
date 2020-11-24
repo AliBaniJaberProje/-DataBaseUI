@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="398.0" style="-fx-background-color: rgba(0,0,255,.5);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.addBillController">
+   <children>
+      <Separator layoutX="84.0" layoutY="59.0" prefHeight="4.0" prefWidth="252.0" />
+      <Label alignment="CENTER" layoutX="116.0" layoutY="6.0" prefHeight="50.0" prefWidth="188.0" text="اضافة فاتورة">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="58.0" fitWidth="66.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/twin2.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="125.0" layoutY="77.0" />
+      <TextField layoutX="125.0" layoutY="192.0" />
+      <TextField layoutX="125.0" layoutY="247.0" />
+      <DatePicker layoutX="125.0" layoutY="301.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="278.0" layoutY="74.0" prefHeight="17.0" prefWidth="76.0" text="اسم العميل">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label layoutX="285.0" layoutY="135.0" prefHeight="17.0" prefWidth="83.0" text="النوع">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="190.0" prefHeight="17.0" prefWidth="83.0" text="الكمية">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="245.0" prefHeight="17.0" prefWidth="83.0" text="السعر">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="299.0" prefHeight="30.0" prefWidth="97.0" text="تاريخ الفاتورة">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="124.0" layoutY="137.0" prefWidth="150.0" />
+      <Separator layoutY="343.0" prefHeight="4.0" prefWidth="398.0" />
+      <Button fx:id="save_bill" layoutX="131.0" layoutY="353.0" mnemonicParsing="false" onAction="#buttonActions" prefHeight="38.0" prefWidth="114.0" style="-fx-background-radius: 200; -fx-background-color: rgba(0,0,255,.5);" text="حفظ" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel_bill" layoutX="9.0" layoutY="353.0" mnemonicParsing="false" onAction="#buttonActions" prefHeight="38.0" prefWidth="114.0" style="-fx-background-radius: 200; -fx-background-color: rgba(0,0,255,.5);" text="الغاء" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

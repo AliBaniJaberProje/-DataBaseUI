@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="879.0" prefWidth="1040.0" style="-fx-background-color: MAGENTA; -fx-border-color: rgb(0,0,0);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sa">
+   <children>
+      <AnchorPane layoutX="600.0" layoutY="60.0" prefHeight="458.0" prefWidth="356.0" style="-fx-background-color: DARKMAGENTA; -fx-border-color: rgb(0,0,0);">
+         <children>
+            <Label contentDisplay="RIGHT" layoutX="135.0" layoutY="14.0" prefHeight="40.0" prefWidth="86.0" text="الطلب" textFill="#fffffff0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="9.0" layoutY="77.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER_RIGHT" layoutX="238.0" layoutY="79.0" prefHeight="40.0" prefWidth="114.0" text="رقم الطلب" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="238.0" layoutY="145.0" prefHeight="40.0" prefWidth="114.0" style=" " text="تاريخ الطلب" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="238.0" layoutY="201.0" prefHeight="40.0" prefWidth="114.0" text="تاريخ التسليم" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <DatePicker layoutX="11.0" layoutY="141.0" prefHeight="40.0" prefWidth="200.0" />
+            <DatePicker layoutX="9.0" layoutY="201.0" prefHeight="40.0" prefWidth="200.0" />
+            <TextField alignment="CENTER_RIGHT" layoutX="9.0" layoutY="259.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="239.0" layoutY="261.0" prefHeight="40.0" prefWidth="114.0" text="الكمية" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="239.0" layoutY="321.0" prefHeight="40.0" prefWidth="114.0" text="السعر" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="11.0" layoutY="319.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label fx:id="add_description_of_order" alignment="CENTER_RIGHT" layoutX="74.0" layoutY="392.0" onMouseClicked="#add_description_of_order" prefHeight="40.0" prefWidth="208.0" text="اضافة وصف لطلب" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="68.0" layoutY="60.0" prefHeight="458.0" prefWidth="356.0" style="-fx-background-color: DARKMAGENTA; -fx-border-color: rgb(0,0,0);">
+         <children>
+            <Label contentDisplay="RIGHT" layoutX="135.0" layoutY="14.0" prefHeight="40.0" prefWidth="86.0" text="الزبون" textFill="#fffffff0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="9.0" layoutY="77.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER_RIGHT" layoutX="238.0" layoutY="79.0" prefHeight="40.0" prefWidth="114.0" text="اسم الزبون" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="11.0" layoutY="167.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="238.0" layoutY="158.0" prefHeight="40.0" prefWidth="114.0" text="رقم تلفون " textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="238.0" layoutY="242.0" prefHeight="40.0" prefWidth="114.0" text="حساب بنك" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="11.0" layoutY="242.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER_RIGHT" layoutX="52.0" layoutY="391.0" onMouseClicked="#add_description_of_Customer" prefHeight="40.0" prefWidth="208.0" text="اضافة وصف لزبون" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="215.0" layoutY="322.0" prefHeight="40.0" prefWidth="136.0" text="مستحقات سابقة" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER_RIGHT" layoutX="8.0" layoutY="320.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="178.0" layoutY="548.0" prefHeight="161.0" prefWidth="672.0" style="-fx-background-color: DARKMAGENTA; -fx-border-color: rgb(0,0,0);">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="394.0" layoutY="26.0" prefHeight="40.0" prefWidth="200.0" text="طريقة الدفع" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="63.0" layoutY="26.0" prefHeight="40.0" prefWidth="200.0" text="المبلغ المتبقي" textFill="#fffffff0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField layoutX="394.0" layoutY="81.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="56.0" layoutY="81.0" prefHeight="44.0" prefWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <Button fx:id="save_button" layoutX="542.0" layoutY="771.0" mnemonicParsing="false" onAction="#saveOrder" prefHeight="44.0" prefWidth="130.0" text="حفظ الطلب">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel_button" layoutX="341.0" layoutY="771.0" mnemonicParsing="false" onAction="#cancelOrder" prefHeight="44.0" prefWidth="136.0" text="الغاء الطلب">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Draw_Order" layoutX="734.0" layoutY="771.0" mnemonicParsing="false" onAction="#saveOrder" prefHeight="44.0" prefWidth="130.0" text="رسم الطلب">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

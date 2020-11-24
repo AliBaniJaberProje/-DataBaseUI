@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="429.0" prefWidth="624.0" style="-fx-background-color: DARKMAGENTA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CustomerDescription">
+   <children>
+      <Label alignment="CENTER" layoutX="189.0" layoutY="31.0" prefHeight="35.0" prefWidth="209.0" text="اضافة وصف لزبون" textFill="#e8e4e4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="32.0" layoutY="84.0" prefHeight="308.0" prefWidth="538.0" style="-fx-background-color: rgba(0,0,255,.7);">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
